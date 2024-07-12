@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'poppins';
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+}
+
+main .left {
+  width: 30%;
+  background-color: rgb(14, 0, 30);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .right {
+  width: 70%;
+}
+
+.left .skills .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left .skills .container p {
+  width: max-content;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(14, 0, 30);
+}
+
+.left .skills h2 {
+    margin-top: 20px;
+}
+
+.left .social-links {
+    margin-top: 20px;
+}
+.left .social-links div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.left .container .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left .top .text p{
+    font-size: 18px;
+}
+.left .top .text .name{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.left .contact {
+   display: flex;
+   flex-direction: column;
+   gap: 3px;
+}
+
+.left .container .contact span{
+    font-weight: 600;
+}
+
+.left .container img {
+    width: 120px;
+    height: auto;
+    border-radius: 100px
+}
+
+.left .container .education {
+    margin-top: 20px;
+}
+
+.left .container .education .bsse {
+    font-size: 24px;
+}
+
+.education .university {
+    font-size: 16px;
+}
+
+.education .bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.left .container .role {
+    background: rgb(244, 233, 255);;
+    color: rgb(14, 0, 30);;
+    border-radius: 1px;
+    padding: 2px;
+    text-align: center;
+}
+
+/* RIGHT */
+.right {
+    padding: 20px;
+}
+
+.right .job {
+    margin-bottom: 20px;
+}
+
+.right .job .top {
+    display: flex;
+    gap: 20px;
+}
+
+.right .job .description {
+    margin-left: 50px;
+}
+
+.right .job .job-name{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.right .block h2, .projects h2, .AwardsAndCertification h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.project .name {
+    font-weight: 600;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.project .description {
+    margin-left: 50px;
+}
+
+.AwardsAndCertification .block {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
